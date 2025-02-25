@@ -1,0 +1,108 @@
+.headerContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: url("../../Images/hero.jpg") no-repeat center center/cover;
+  /* Ensure image covers full area */
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  background-blend-mode: black;
+  background-attachment: fixed;
+}
+
+.headerWraper {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(39, 2, 2, 0.3);
+  z-index: 1000;
+  background-blend-mode: darken;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  /* width: 95%; */
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* backdrop-filter: blur(10px); */
+}
+
+.header H1 {
+  color: #fff;
+  font-family: "Poppins", serif;
+}
+
+hr {
+  border: 0.33333px solid #b9b9b9;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  font-family: "Poppins", serif;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.heroContent {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10rem;
+  align-items: center;
+}
+
+.heroContent h2 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.heroText {
+  width: 60%;
+  margin-top: 20px;
+  font-family: "Poppins", serif;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #fff;
+  letter-spacing: 5;
+}
+
+.heroButton {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  border-bottom: 2px solid black;
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  border-radius: 4px;
+  margin-top: 25px;
+  font-family: "Poppins", serif;
+}
+
+.heroButton:hover {
+  background: black;
+  color: white;
+  border-bottom: none;
+  transform: translateY(-5px);
+}

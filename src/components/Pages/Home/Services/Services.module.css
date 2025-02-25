@@ -1,0 +1,17 @@
+.servicesContainer {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  width: 100%;
+}
+
+.servicesWrapper {
+  margin: 0 auto;
+  width: 92%;
+}
+
+.servicesWrapper h2 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 3rem;
+  width: 90%;
+}

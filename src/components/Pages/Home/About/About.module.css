@@ -1,0 +1,66 @@
+.aboutContainer {
+  width: 100%;
+  background-color: #394647;
+  margin-top: -5px;
+}
+
+.aboutWrapper {
+  width: 93%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3rem;
+}
+
+.about {
+  width: 500%;
+}
+
+.about .rule {
+  border: 0.3px solid #3c3c3c;
+}
+
+.aboutWrapper p {
+  margin-top: 1.5rem;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 1rem;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 1.5rem;
+  width: 90%;
+}
+
+.heroButton {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  border-bottom: 2px solid rgb(74, 187, 43);
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  border-radius: 4px;
+  margin-top: 2rem;
+  font-family: "Poppins", serif;
+}
+
+.heroButton:hover {
+  background: #26b82e;
+  color: white;
+  border-bottom: none;
+  transform: translateY(-5px);
+}
+
+.pee {
+  margin-top: 7rem;
+  font-family: "Poppins", serif;
+  width: 65%;
+}

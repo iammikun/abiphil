@@ -1,0 +1,17 @@
+.CnPContainer {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  width: 100%;
+}
+
+.CnPWrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.CnPWrapper h2 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 4rem;
+  width: 90%;
+}

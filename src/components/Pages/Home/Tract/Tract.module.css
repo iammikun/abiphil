@@ -1,0 +1,14 @@
+.tractContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: url("../../../../Images/bgTract.jpg") no-repeat center
+    center/cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
