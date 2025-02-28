@@ -1,0 +1,73 @@
+.contactWrapper {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.call,
+.fill {
+  width: 50%;
+  color: #000;
+  text-decoration: none;
+  padding-top: 50px;
+  padding-left: 56px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  line-height: 1;
+}
+
+.call {
+  background: #f3f1ea;
+  transition: all ease-in-out 0.3s;
+}
+
+.call h3,
+.fill h3 {
+  font-family: "Poppins", serif;
+  font-size: 2rem;
+  width: 70%;
+  font-weight: 500;
+  margin-bottom: 1.3rem;
+}
+
+.call p,
+.fill p {
+  font-family: "Poppins", serif;
+}
+
+.icon {
+  margin-top: 1.3rem;
+  font-size: 1.5rem;
+}
+
+.fill {
+  background: #a0d8c3;
+  transition: all ease-in-out 0.3s;
+}
+
+.link {
+  margin-top: 20rem;
+  align-items: center;
+}
+
+.link a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000;
+  gap: 10px;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+}
+
+.call:hover {
+  color: #fff;
+  background-color: #069f7d;
+  transition: all ease-in-out 0.3s;
+}
+
+.fill:hover {
+  color: #fff;
+  background: #1e3232;
+  transition: all ease-in-out 0.3s;
+}

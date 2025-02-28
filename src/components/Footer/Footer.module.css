@@ -1,0 +1,82 @@
+.FooterContainer {
+  background: #152525;
+  color: white;
+  padding: 3rem 3%;
+  padding-top: 8rem;
+}
+
+.FooterWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.FooterLogo {
+  width: 30%;
+}
+
+.FooterLogo h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Poppins", serif;
+}
+
+.FooterLogo p {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-family: "Poppins", serif;
+}
+
+.FooterLinks {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", serif;
+}
+
+.FooterLinks div {
+  width: 23%;
+}
+
+.FooterLinks h4 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 15px;
+  font-family: "Poppins", serif;
+  opacity: 0.4;
+}
+
+.FooterLinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.FooterLinks ul li {
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  font-family: "Poppins", serif;
+}
+
+.FooterLinks ul li:hover {
+  color: #ccc;
+}
+
+.FooterLinks p {
+  font-size: 0.8rem;
+}
+
+.FooterBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  font-size: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 8rem;
+  font-family: "Poppins", serif;
+}

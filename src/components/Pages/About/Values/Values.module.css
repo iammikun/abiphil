@@ -1,0 +1,89 @@
+.valueContainer {
+  background: #1e3232;
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.valueWrapper {
+  background: #fff;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 2.37rem 2rem;
+  border-radius: 4px;
+  padding-bottom: 4rem;
+}
+
+.valueWrapper h2 {
+  font-family: "Poppins", serif;
+  font-size: 3rem;
+  margin-top: 7rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.valueWrapper p {
+  font-family: "Poppins", serif;
+  font-size: 0.868rem;
+  margin-top: 10px;
+  text-align: center;
+  /* opacity: 0.7; */
+}
+
+.valueTrust {
+  background-image: url(../../../../Images/trust.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  width: 85%;
+  margin: 0 auto;
+  min-height: 40vh;
+  background-position: center center;
+}
+
+.valueContent {
+  padding-left: 2rem;
+  color: #000;
+  width: 50%;
+}
+
+.valueContent h2 {
+  font-family: "Poppins", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  padding-top: 3rem;
+}
+
+.valueContent p {
+  font-family: "Poppins", serif;
+  text-align: left;
+  font-size: 1rem;
+  color: #000;
+  opacity: 20;
+}
+
+.valueTrustTwo {
+  background-image: url(../../../../Images/trustTwo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  width: 85%;
+  background-position: center center;
+  margin: 0 auto;
+  min-height: 40vh;
+}
+
+.valueTrustThree {
+  background-image: url(../../../../Images/trustThree.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: left;
+  width: 85%;
+  margin: 0 auto;
+  min-height: 40vh;
+}

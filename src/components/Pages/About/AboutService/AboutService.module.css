@@ -1,25 +1,17 @@
-.servicesContainer {
-  margin-top: 12rem;
-  margin-bottom: 5rem;
+.AboutServiceContainer {
   width: 100%;
 }
 
-.servicesWrapper {
+.AboutServiceWrapper {
+  width: 93%;
   margin: 0 auto;
-  width: 92%;
-}
-
-.servicesWrapper h2 {
-  font-family: "Poppins", serif;
-  font-weight: 400;
-  font-size: 3rem;
-  width: 90%;
 }
 
 .servicesCard {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  /* gap: 3rem; */
+  justify-content: space-between;
   width: 100%;
   margin-top: 8rem;
 }

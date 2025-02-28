@@ -1,15 +1,10 @@
 import React from "react";
-import classes from "./Services.module.css";
+import classes from "./AboutService.module.css";
 
-const Services = () => {
+const AboutService = () => {
   return (
-    <div className={classes.servicesContainer}>
-      <div className={classes.servicesWrapper}>
-        <h2>
-          Abiphil's supply top-quality farming and rice-processing machinery,
-          ensuring you have the right tools to increase efficiency and
-          profitability.
-        </h2>
+    <div className={classes.AboutServiceContainer}>
+      <div className={classes.AboutServiceWrapper}>
         <div className={classes.servicesCard}>
           <div className={classes.cardOne}>
             <h2 className={classes.number}>01</h2>
@@ -35,4 +30,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default AboutService;

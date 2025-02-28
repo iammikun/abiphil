@@ -1,13 +1,12 @@
+/* Header Container with Background Image (Homepage by Default) */
 .headerContainer {
   width: 100%;
   height: 100vh;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   position: relative;
   background: url("../../Images/hero.jpg") no-repeat center center/cover;
-  /* Ensure image covers full area */
   background-size: cover;
   background-position: center;
   background-color: black;
@@ -15,40 +14,54 @@
   background-attachment: fixed;
 }
 
+/* Remove background image and change background for About Page */
+.aboutPage {
+  background: none;
+  background-color: #fff;
+  height: auto;
+}
+
+/* Remove background image and change background for Contact Page */
+.contactPage {
+  background: none;
+  background-color: #f5f5f5;
+  height: auto;
+}
+
+/* Header Wrapper */
 .headerWraper {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  background: rgba(39, 2, 2, 0.3);
   z-index: 1000;
   background-blend-mode: darken;
-  height: 100vh;
+  padding-top: 8rem;
 }
 
+/* Sticky Header Bar */
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  /* width: 95%; */
   margin: 0 auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 50px;
-  padding-right: 50px;
-  /* backdrop-filter: blur(10px); */
+  padding: 25px 50px;
+  width: 100%;
+  background: rgba(128, 108, 108, 0.3);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
 }
 
-.header H1 {
+.header h1 {
   color: #fff;
   font-family: "Poppins", serif;
 }
 
-hr {
-  border: 0.33333px solid #b9b9b9;
-}
-
+/* Navbar */
 .navbar {
   display: flex;
   flex-direction: row;
@@ -61,30 +74,40 @@ hr {
   text-decoration: none;
 }
 
+.headerBtn button {
+  cursor: pointer;
+  background: #1e3232;
+}
+
+.headerBtn button:hover {
+  background: #069f7d;
+}
+
+/* Homepage Hero Section */
 .heroContent {
-  width: 70%;
+  width: 73%;
   margin: 0 auto;
-  padding-top: 10rem;
-  align-items: center;
+  border-radius: 10px;
+  padding-top: 8rem;
 }
 
 .heroContent h2 {
   font-family: "Poppins", serif;
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: #fff;
+  margin-bottom: 1rem;
 }
 
 .heroText {
-  width: 60%;
-  margin-top: 20px;
+  width: 80%;
   font-family: "Poppins", serif;
-  font-size: 1rem;
-  line-height: 30px;
+  font-size: 1.2rem;
+  line-height: 1.8;
   color: #fff;
-  letter-spacing: 5;
 }
 
+/* Hero Button (Homepage) */
 .heroButton {
   display: inline-block;
   padding: 10px 20px;
@@ -105,4 +128,69 @@ hr {
   color: white;
   border-bottom: none;
   transform: translateY(-5px);
+}
+
+/* About Page Hero Section Styling */
+.aboutHero {
+  width: 90%;
+  padding: 2rem;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  margin-left: 70px;
+}
+
+.aboutHero h2 {
+  font-family: "Poppins", serif;
+  font-size: 3rem;
+  color: #333;
+}
+
+.aboutHero p {
+  font-family: "Poppins", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+  margin-top: 5px;
+  width: 70%;
+  line-height: 1.4;
+}
+
+/* Contact Page Hero Section */
+.contactHero {
+  width: 90%;
+  padding: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.contactHero h2 {
+  font-family: "Poppins", serif;
+  font-size: 7rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.contactHero p {
+  font-family: "Poppins", serif;
+  font-size: 1.5rem;
+  color: #666;
+  max-width: 800px;
+  /* margin: 0 auto; */
+  line-height: 1.6;
+}
+
+/* Contact Button */
+.contactButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #1d72b8;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.contactButton:hover {
+  background: #155a91;
 }

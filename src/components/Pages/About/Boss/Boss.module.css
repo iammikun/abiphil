@@ -1,0 +1,22 @@
+.bossContainer {
+  width: 100%;
+}
+
+.bossWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bossWrapper img {
+  width: 100%;
+}
+
+.bossText h2 {
+  font-family: "Poppins", serif;
+  font-size: 2.2rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  font-weight: 500;
+  width: 60%;
+  margin-left: 24rem;
+}
