@@ -21,7 +21,7 @@ button {
 .smartText {
   margin-top: 2.5rem;
   padding-left: 60px;
-  width: 50%;
+  width: 45%;
 }
 
 .smartText h2 {
@@ -48,7 +48,7 @@ button {
   transition: transform 0.3s ease-in-out, background 0.3s ease-in-out,
     color 0.3s ease-in-out;
   border-radius: 4px;
-  margin-top: 5rem;
+  margin-top: 3rem;
   font-family: "Poppins", serif;
 }
 
@@ -60,7 +60,7 @@ button {
 }
 
 .smartImage {
-  width: 50%;
+  width: 55%;
 }
 
 .smartImage img {

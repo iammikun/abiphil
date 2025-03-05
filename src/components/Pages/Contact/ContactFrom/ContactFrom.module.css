@@ -1,0 +1,42 @@
+.contactContainer {
+  width: 84%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contactForm p {
+  font-family: "Poppins", serif;
+}
+
+form {
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  margin-top: 13px;
+  padding: 20px 10px;
+  border: 1px solid #ccc;
+  font-family: "Poppins", serif;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 13px;
+  padding: 100px 10px;
+  padding-top: 15px;
+  border: 1px solid #ccc;
+  font-family: "Poppins", serif;
+  margin-bottom: 1rem;
+}
+
+.contactBtn {
+  cursor: pointer;
+}

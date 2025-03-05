@@ -39,9 +39,6 @@ const Header = () => {
           <nav className={classes.navbar}>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <Link to="/platform">Platform</Link>
-            <Link to="/sustainability">Sustainability</Link>
-            <Link to="/news">News</Link>
             <Link to="/contact-us">Contact</Link>
           </nav>
           <Link to="/contact-us" className={classes.headerBtn}>
@@ -84,7 +81,9 @@ const Header = () => {
             inquiry, partnership opportunity, or general support, our team is
             ready to help.
           </p>
-          <p>Email: support@abiphil.com | Phone: +234 801 234 5678</p>
+          <p className={classes.pee}>
+            Email: support@abiphil.com | Phone: +234 801 234 5678
+          </p>
         </div>
       ) : null}
     </div>

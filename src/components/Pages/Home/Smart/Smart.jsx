@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Smart.module.css";
 import { Link } from "react-router-dom";
-import smart from "../../../../Images/WhatsApp Image 2025-02-19 at 05.26.28_2d1a2e22.jpg";
+import smart from "../../../../Images/smart.jpg";
 
 const Smart = () => {
   return (
