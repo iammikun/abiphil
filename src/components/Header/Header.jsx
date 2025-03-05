@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import classes from "./Header.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1300 });
+  }, []);
+
   const [scrolling, setScrolling] = useState(false);
   const location = useLocation();
 
@@ -49,7 +55,7 @@ const Header = () => {
 
       {/* Hero Sections */}
       {!isAboutPage && !isContactPage ? (
-        <div className={classes.heroContent}>
+        <div className={classes.heroContent} data-aos="fade-down">
           <h2 className={classes.heroTitle}>
             Welcome to AbiPhil - Your Partner in Sustainable Agriculture
           </h2>
@@ -63,7 +69,7 @@ const Header = () => {
           </Link>
         </div>
       ) : isAboutPage ? (
-        <div className={classes.aboutHero}>
+        <div className={classes.aboutHero} data-aos="fade-down">
           <p>
             We are dedicated to transforming the agricultural industry by
             introducing innovative solutions that enhance productivity,
@@ -74,7 +80,7 @@ const Header = () => {
           </p>
         </div>
       ) : isContactPage ? (
-        <div className={classes.contactHero}>
+        <div className={classes.contactHero} data-aos="fade-down">
           <h2>Contact Us</h2>
           <p>
             Have questions? We’d love to hear from you! Whether it's a business

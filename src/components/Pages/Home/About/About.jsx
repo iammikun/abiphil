@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./About.module.css";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  }, []);
+
   return (
     <div className={classes.aboutContainer}>
-      <div className={classes.aboutWrapper}>
+      <div className={classes.aboutWrapper} data-aos="">
         <div className={classes.about}>
           <hr />
           <p>ABOUT ABIPHIL</p>

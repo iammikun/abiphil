@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Values.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Values = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1300 });
+  }, []);
+
   return (
     <div className={classes.valueContainer}>
-      <div className={classes.valueWrapper}>
+      <div className={classes.valueWrapper} data-aos="fade-down">
         <h2>Company Values</h2>
         <p>Why are these our values?</p>
-        <div className={classes.valueTrust}>
+        <div className={classes.valueTrust} data-aos="fade-down">
           <div className={classes.valueContent}>
             <h2>Trust</h2>
             <p>
@@ -17,7 +23,7 @@ const Values = () => {
             </p>
           </div>
         </div>
-        <div className={classes.valueTrustTwo}>
+        <div className={classes.valueTrustTwo} data-aos="fade-down">
           <div className={classes.valueContent}>
             <h2>Sustainable impact</h2>
             <p>
@@ -26,7 +32,7 @@ const Values = () => {
             </p>
           </div>
         </div>
-        <div className={classes.valueTrustThree}>
+        <div className={classes.valueTrustThree} data-aos="fade-down">
           <div className={classes.valueContent}>
             <h2>Trust</h2>
             <p>
