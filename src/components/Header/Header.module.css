@@ -19,7 +19,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: black; /* Black overlay */
+  background-color: rgb(56, 56, 56); /* Black overlay */
   opacity: 0.5; /* Adjust opacity for visibility */
   z-index: 1;
 }
