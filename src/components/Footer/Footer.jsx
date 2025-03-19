@@ -27,11 +27,11 @@ const Footer = () => {
           <div>
             <h4>About Abiphil</h4>
             <ul>
-              <li>Company</li>
+              <li>About</li>
               <li>Team</li>
               <li>Advantages</li>
               <li>Company Values</li>
-              <li>Sustainability</li>
+              <li>Contact</li>
             </ul>
           </div>
 
@@ -39,7 +39,7 @@ const Footer = () => {
             <h4>Platform</h4>
             <ul>
               <li>TRACE</li>
-              <li>Sabi Market</li>
+              <li>Abiphil Market</li>
               <li>Financial Services</li>
             </ul>
           </div>
@@ -52,9 +52,9 @@ const Footer = () => {
       </div>
 
       <div className={classes.FooterBottom}>
-        <p>2024 Sabi. All rights reserved.</p>
-        <p>Cookies policy. Privacy policy. Terms and conditions.</p>
-        <p>Design & Dev by ...</p>
+        <p>2025 Abiphil. All rights reserved.</p>
+        <p>Privacy policy. Terms and conditions.</p>
+        <p>Design & Dev by: BanQr</p>
       </div>
     </footer>
   );

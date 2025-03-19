@@ -40,3 +40,24 @@ textarea {
 .contactBtn {
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    width: 90%;
+  }
+
+  form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contactForm {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+}

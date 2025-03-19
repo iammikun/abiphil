@@ -66,3 +66,54 @@ button {
 .smartImage img {
   width: 100%;
 }
+
+@media screen and (max-width: 1000px) {
+  .smartWrapper {
+    flex-direction: column;
+  }
+
+  .smartText {
+    width: 100%;
+    padding-left: 52px;
+  }
+
+  .smartText h2 {
+    margin-top: 30px;
+    width: 90%;
+  }
+
+  .smartText p {
+    width: 90%;
+  }
+
+  .smartImage {
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 80%;
+  }
+
+  .heroButton {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .smartText {
+    padding-left: 16px;
+  }
+
+  .smartImage {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .smartText h2 {
+    width: 95%;
+  }
+
+  .smartText p {
+    width: 95%;
+  }
+}

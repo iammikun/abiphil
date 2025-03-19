@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <div className={classes.aboutContainer}>
-      <div className={classes.aboutWrapper} data-aos="">
+      <div className={classes.aboutWrapper} data-aos="zoom-in">
         <div className={classes.about}>
           <hr />
           <p>ABOUT ABIPHIL</p>

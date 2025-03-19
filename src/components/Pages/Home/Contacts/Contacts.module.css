@@ -71,3 +71,22 @@
   background: #1e3232;
   transition: all ease-in-out 0.3s;
 }
+
+@media screen and (max-width: 500px) {
+  .contactWrapper {
+    flex-direction: column;
+  }
+
+  .call,
+  .fill {
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .call h3,
+  .fill h3 {
+    font-size: 1.7rem;
+  }
+}

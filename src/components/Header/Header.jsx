@@ -41,7 +41,9 @@ const Header = () => {
         }`}
       >
         <header className={classes.header}>
-          <h1 className={classes.logo}>abiphil</h1>
+          <Link to="/" className={classes.logo}>
+            abiphil
+          </Link>
           <nav className={classes.navbar}>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>

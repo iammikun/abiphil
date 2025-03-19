@@ -80,3 +80,37 @@
   margin-top: 8rem;
   font-family: "Poppins", serif;
 }
+
+@media screen and (max-width: 500px) {
+  .FooterWrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .FooterLogo {
+    width: 100%;
+  }
+
+  .FooterLinks {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .FooterLinks div {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .FooterLinks ul li {
+    width: 100%;
+  }
+
+  .FooterBottom {
+    flex-direction: column;
+  }
+
+  .FooterBottom p {
+    margin-top: 10px;
+  }
+}

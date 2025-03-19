@@ -9,7 +9,7 @@ const CnP = () => {
   }, []);
 
   return (
-    <div className={classes.CnPContainer}>
+    <div className={classes.CnPContainer} data-aos="">
       <div className={classes.CnPWrapper}>
         <h2>Crafting Sustainable Agriculture & Agri-Tech Solutions</h2>
       </div>

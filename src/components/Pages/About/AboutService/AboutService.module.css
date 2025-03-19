@@ -14,9 +14,11 @@
   justify-content: space-between;
   width: 100%;
   margin-top: 8rem;
+  flex-wrap: wrap;
 }
 
 .cardOne {
+  background-image: ;
   background: #1e3232;
   width: 30%;
   padding-top: 40px;
@@ -80,4 +82,129 @@
   font-family: "Poppins", serif;
   font-size: 0.868rem;
   margin-top: 10px;
+}
+
+.cardOne,
+.cardTwo,
+.cardThree {
+  position: relative;
+  width: 30%;
+  padding: 40px 20px;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out, opacity 0.5s ease-in-out,
+    transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardOne:hover,
+.cardTwo:hover,
+.cardThree:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+  filter: brightness(1.1); /* Slight brightness increase */
+}
+
+.cardOne:hover {
+  background-image: url("../../../../Images/hydro.webp");
+  background-color: #1e3232;
+  background-blend-mode: multiply;
+  opacity: 0.9;
+  transform: scale(1.02); /* Slight zoom effect */
+  filter: brightness(1.1);
+}
+
+.cardTwo:hover {
+  background-image: url("../../../../Images/hydro.webp");
+  background-color: #069f7d;
+  background-blend-mode: multiply;
+  opacity: 0.9;
+}
+
+.cardThree:hover {
+  background-image: url("../../../../Images/hydro.webp");
+  background-color: #f3f1ea;
+  background-blend-mode: multiply;
+  opacity: 0.9;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .servicesContainer {
+    margin-top: 7rem;
+  }
+
+  .servicesWrapper h2 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .servicesCard {
+    gap: 10px;
+
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+
+  .cardOne {
+    width: 45%;
+  }
+
+  .cardOne h2,
+  .cardTwo h2,
+  .cardThree h2 {
+    font-size: 2rem;
+  }
+
+  .cardTwo {
+    width: 45%;
+  }
+
+  .cardThree {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .servicesContainer {
+    margin-top: 5rem;
+  }
+
+  .servicesWrapper {
+    width: 93%;
+  }
+
+  .servicesWrapper h2 {
+    font-size: 2rem;
+  }
+
+  .servicesCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardOne,
+  .cardTwo,
+  .cardThree {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  .cardOne h2,
+  .cardTwo h2,
+  .cardThree h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .servicesCard {
+    width: 100%;
+  }
+
+  .cardOne,
+  .cardTwo,
+  .cardThree {
+    width: 100%;
+  }
 }

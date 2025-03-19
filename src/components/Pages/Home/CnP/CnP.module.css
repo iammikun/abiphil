@@ -15,3 +15,34 @@
   font-size: 4rem;
   width: 90%;
 }
+
+@media screen and (max-width: 768px) {
+  .CnPContainer {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .CnPWrapper {
+    width: 90%;
+  }
+
+  .CnPWrapper h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .CnPWrapper {
+    width: 93%;
+  }
+
+  .CnPWrapper h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .CnPWrapper h2 {
+    font-size: 2rem;
+  }
+}

@@ -20,3 +20,26 @@
   width: 60%;
   margin-left: 24rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .bossText h2 {
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 6rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bossWrapper {
+    width: 100%;
+    padding-top: 5rem;
+  }
+
+  .bossText {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2px;
+    font-size: 1.5rem;
+  }
+}

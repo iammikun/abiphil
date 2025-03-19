@@ -6,11 +6,11 @@ import "aos/dist/aos.css";
 
 const Boss = () => {
   useEffect(() => {
-    AOS.init({ duration: 1300 });
+    AOS.init({ duration: 700 });
   }, []);
 
   return (
-    <div className={classes.bossContainer} data-aos="fade-down">
+    <div className={classes.bossContainer} data-aos="">
       <div className={classes.bossWrapper}>
         <img src={aboutImg} alt="" />
 

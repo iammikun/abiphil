@@ -9,10 +9,10 @@ const AboutService = () => {
   }, []);
 
   return (
-    <div className={classes.AboutServiceContainer} data-aos="fade-down">
+    <div className={classes.AboutServiceContainer} data-aos="">
       <div className={classes.AboutServiceWrapper}>
         <div className={classes.servicesCard}>
-          <div className={classes.cardOne} data-aos="fade-down">
+          <div className={classes.cardOne} data-aos="">
             <h2 className={classes.number}>01</h2>
             <h2>Hydroponic Systems</h2>
             <p>Advanced water-efficient farming with minimal soil use.</p>

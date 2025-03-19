@@ -29,6 +29,13 @@
   z-index: 2;
 }
 
+.logo {
+  font-family: "Poppins", serif;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #000;
+}
+
 /* Remove background image and change background for About Page */
 .aboutPage {
   background: none;
@@ -200,4 +207,96 @@
 
 .pee {
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .heroContent {
+    width: 90%;
+    /* padding-top: 9rem; */
+  }
+
+  .heroContent h2 {
+    font-size: 3rem;
+  }
+
+  .aboutHero {
+    padding-left: 50px;
+    padding-top: 12rem;
+  }
+
+  .aboutHero p {
+    width: 100%;
+  }
+
+  .contactHero {
+    padding-left: 3rem;
+    padding-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .heroContent {
+    padding-top: 11rem;
+  }
+
+  .heroText {
+    width: 100%;
+  }
+
+  .contactHero h2 {
+    font-size: 2rem;
+  }
+
+  .contactHero p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .heroContent {
+    width: 93%;
+  }
+
+  .heroContent h2 {
+    font-size: 2.5rem;
+  }
+
+  .heroContent p {
+    font-size: 1rem;
+  }
+
+  .aboutHero {
+    padding-left: 14px;
+    padding-top: 9rem;
+    padding-bottom: 0rem;
+  }
+
+  .aboutHero p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .contactHero {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .heroContent h2 {
+    font-size: 2rem;
+  }
 }

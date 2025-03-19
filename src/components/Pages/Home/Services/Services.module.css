@@ -22,6 +22,7 @@
   gap: 3rem;
   width: 100%;
   margin-top: 8rem;
+  flex-wrap: wrap;
 }
 
 .cardOne {
@@ -134,4 +135,88 @@
   background-blend-mode: multiply;
   opacity: 0.9;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .servicesContainer {
+    margin-top: 7rem;
+  }
+
+  .servicesWrapper h2 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .servicesCard {
+    gap: 10px;
+
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+
+  .cardOne {
+    width: 45%;
+  }
+
+  .cardOne h2,
+  .cardTwo h2,
+  .cardThree h2 {
+    font-size: 2rem;
+  }
+
+  .cardTwo {
+    width: 45%;
+  }
+
+  .cardThree {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .servicesContainer {
+    margin-top: 5rem;
+  }
+
+  .servicesWrapper {
+    width: 93%;
+  }
+
+  .servicesWrapper h2 {
+    font-size: 2rem;
+  }
+
+  .servicesCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardOne,
+  .cardTwo,
+  .cardThree {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  .cardOne h2,
+  .cardTwo h2,
+  .cardThree h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .servicesCard {
+    width: 100%;
+  }
+
+  .cardOne,
+  .cardTwo,
+  .cardThree {
+    width: 100%;
+  }
+
+  .servicesWrapper h2 {
+    font-size: 1.5rem;
+  }
 }

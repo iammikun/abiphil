@@ -87,3 +87,27 @@
   margin: 0 auto;
   min-height: 40vh;
 }
+
+@media screen and (max-width: 768px) {
+  .valueWrapper {
+    width: 90%;
+  }
+
+  .valueWrapper h2 {
+    margin-top: 3rem;
+  }
+
+  .valueContent {
+    width: 90%;
+  }
+
+  .valueTrust,
+  .valueTrustTwo,
+  .valueTrustThree {
+    width: 100%;
+  }
+
+  .valueTrust p {
+    font-size: 0.878rem;
+  }
+}
